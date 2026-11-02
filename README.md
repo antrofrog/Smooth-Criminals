@@ -1,16 +1,10 @@
 <div align="center">
 
-# CHUDBOT
+# SMOOTH CRIMINALS
 
-### AN EXPERIMENTAL INTERNET-NATIVE AGENT
+### AN AI-ANIMATED SHORT SERIES
 
-**THE SIGNAL WAS ALWAYS THERE.**
-
-![Node](https://img.shields.io/badge/Node.js-18+-green)
-![Version](https://img.shields.io/badge/version-0.2.0-purple)
-![Status](https://img.shields.io/badge/status-OBSERVING-black)
-![Memory](https://img.shields.io/badge/memory-ENABLED-blue)
-![Engine](https://img.shields.io/badge/engine-RULE--BASED-orange)
+**A LITTLE CHARM. A LOT OF TROUBLE.**
 
 </div>
 
@@ -18,151 +12,86 @@
 
 ## 01 / OVERVIEW
 
-ChudBot is an experimental, personality-driven
-software agent designed to interpret and respond
-to internet-native conversations.
+Smooth Criminals is a series of AI-animated shorts about sharp-dressed characters moving through a world that rarely goes according to plan.
 
-The current implementation runs locally and uses
-deterministic intent classification, a structured
-personality engine, and persistent conversation memory.
+Romance, close calls, and everyday encounters unfold through expressive animation, visual comedy, and music. Each episode tells a self-contained story, connected by recurring characters and a shared sense of style.
 
-No external API key is required.
+At the center of it all: a gentleman who makes even the most unlikely situation look effortless.
 
-## 02 / SYSTEM STATUS
+## 02 / THE WORLD
 
-| Component | Status |
+Coffee in hand. Tie slightly crooked. Trouble around the corner.
+
+From crowded city streets to quiet moments between strangers, Smooth Criminals finds its stories in small encounters that take unexpected turns.
+
+An umbrella becomes a way out. A passing glance starts a romance. A simple walk through the city turns into something worth watching.
+
+## 03 / THE FORMAT
+
+| Element | Approach |
 |---|---|
-| Personality Engine | Operational |
-| Intent Classification | Operational |
-| Local Conversation Memory | Operational |
-| Activity Logging | Operational |
-| Terminal Interface | Operational |
-| Automated Tests | Implemented |
-| AI Model Inference | Not integrated |
-| X Integration | Planned |
-| Autonomous Tasks | Planned |
+| Format | Short, self-contained animated episodes |
+| Storytelling | Visual, character-led, minimal dialogue |
+| Tone | Playful, stylish, romantic, occasionally absurd |
+| Characters | A recurring cast with distinct personalities |
+| Settings | City streets, cafés, gardens, and everyday places |
+| Music | Sets the mood and shapes the pacing |
+| Continuity | Standalone stories within a shared world |
 
-## 03 / ARCHITECTURE
+## 04 / CREATIVE DIRECTION
 
-```text
-MESSAGE INPUT
-      |
-      v
-INPUT VALIDATION
-      |
-      v
-INTENT CLASSIFIER
-      |
-      v
-CONTEXT INSPECTION
-      |
-      v
-PERSONALITY ENGINE
-      |
-      v
-MEMORY + LOGGING
-      |
-      v
-RESPONSE OUTPUT
-```
+### Character comes first
 
-See [Architecture](docs/architecture.md).
+The cast should be recognizable through posture, expression, clothing, and behavior—even without a line of dialogue.
 
-## 04 / INSTALLATION
+### Make every movement matter
 
-Requirements: Node.js 18+
+A small gesture can carry the joke. A pause can carry the romance. Action should reveal personality as much as it moves the story forward.
 
-```bash
-git clone https://github.com/Jinszrrau/Chudbot.git
-cd Chudbot
-npm install
-npm start
-```
+### Keep the impossible casual
 
-## 05 / COMMANDS
+The world can bend the rules. The characters treat it like another Tuesday.
 
-| Command | Function |
-|---|---|
-| /help | Show available commands |
-| /status | Inspect engine status |
-| /memory | Display recent memory |
-| /clear | Delete conversation memory |
-| /exit | Terminate session |
+### End on a moment
 
-## 06 / REPOSITORY STRUCTURE
+Each short builds toward a clear payoff: a joke, a reversal, an unexpected kindness, or a glance that says enough.
 
-```text
-src/
-  core/
-    classifier.js
-    personality.js
-    logger.js
-  storage/
-    memory.js
-  bot.js
-  index.js
+## 05 / PRODUCTION APPROACH
 
-tests/
-  bot.test.js
+The intended workflow combines AI-assisted image generation and animation with story development, shot selection, editing, and sound design.
 
-docs/
-  architecture.md
+1. Develop the premise and ending.
+2. Break the story into visual beats.
+3. Establish character and location references.
+4. Generate and refine individual shots.
+5. Edit for rhythm, clarity, and continuity.
+6. Add music and sound effects cleared for use.
+7. Review the finished episode for visual consistency.
 
-package.json
-README.md
-```
+Tools may change between episodes. The goal stays the same: memorable characters and stories that work on screen.
 
-## 07 / TESTING
+## 06 / DEVELOPMENT ROADMAP
 
-```bash
-npm test
-```
+- [ ] Character guide and recurring cast
+- [ ] Visual style guide
+- [ ] Pilot episode
+- [ ] Repeatable production workflow
+- [ ] Additional standalone shorts
+- [ ] Recurring locations and supporting characters
+- [ ] Longer stories and connected episodes
 
-The test suite covers classification,
-response selection, memory persistence,
-and engine state.
+## 07 / ABOUT THIS REPOSITORY
 
-## 08 / ROADMAP
+This repository is intended to document the development of Smooth Criminals, including its creative direction, production workflow, and episode planning.
 
-- [x] Personality engine
-- [x] Rule-based intent classification
-- [x] Local persistent memory
-- [x] Activity logging
-- [x] Interactive terminal
-- [x] Automated testing
-- [ ] Semantic inference
-- [ ] Optional LLM integration
-- [ ] X mention integration
-- [ ] Scheduled tasks
-- [ ] Retrieval tools
-- [ ] Agent evaluation system
-
-## 09 / SECURITY
-
-Local conversation memory is stored in
-`.data/memory.json`.
-
-Activity metadata is written to
-`.data/events.jsonl`.
-
-These files are excluded from Git.
-
-Do not store secrets in source files or commit
-sensitive conversation histories.
-
-## 10 / PROJECT STATUS
-
-Experimental release.
-
-ChudBot does not currently post to X or
-operate as an autonomous network agent.
+Production notes and assets will be added as the project develops.
 
 ---
 
 <div align="center">
 
-**CHUDBOT // OBSERVING**
+**SMOOTH CRIMINALS**
 
-*Nothing happens without a trace.*
+*Never lose your cool.*
 
 </div>
