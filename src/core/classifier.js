@@ -1,7 +1,7 @@
 const patterns = [
   {
     intent: "identity",
-    regex: /\b(who are you|what are you|your name|what is chudbot)\b/i
+    regex: /\b(who are you|what are you|your name|what is smooth-criminals)\b/i
   },
   {
     intent: "greeting",

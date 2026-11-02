@@ -1,8 +1,8 @@
-# ChudBot Architecture
+# Smooth Criminals Architecture
 
 ## Overview
 
-ChudBot is a modular, personality-driven
+Smooth Criminals is a modular, personality-driven
 conversational agent implemented in Node.js.
 
 ## Processing Pipeline

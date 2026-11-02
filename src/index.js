@@ -1,7 +1,7 @@
 import readline from "node:readline";
-import { ChudBot } from "./bot.js";
+import { Smooth Criminals } from "./bot.js";
 
-const bot = new ChudBot();
+const bot = new Smooth Criminals();
 
 console.log(`
 ╔══════════════════════════════════════════╗
@@ -60,11 +60,11 @@ AVAILABLE COMMANDS
   } else if (input === "/clear") {
     bot.memory.clear();
     bot.logger.record("memory_cleared");
-    console.log("chudbot > Memory cleared.");
+    console.log("smooth-criminals > Memory cleared.");
   } else {
     try {
       const result = bot.respond(input);
-      console.log(`chudbot > ${result.reply}`);
+      console.log(`smooth-criminals > ${result.reply}`);
     } catch (error) {
       console.error("System error:", error.message);
     }
@@ -74,6 +74,6 @@ AVAILABLE COMMANDS
 });
 
 cli.on("close", () => {
-  console.log("\nCHUDBOT // SIGNAL TERMINATED");
+  console.log("\nSMOOTH CRIMINALS // SIGNAL TERMINATED");
   process.exit(0);
 });

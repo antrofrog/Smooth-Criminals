@@ -6,7 +6,7 @@ import {
 import { Memory } from "./storage/memory.js";
 import { Logger } from "./core/logger.js";
 
-export class ChudBot {
+export class Smooth Criminals {
   constructor(options = {}) {
     this.identity = personality;
 
@@ -97,7 +97,7 @@ export class ChudBot {
   }
 }
 
-// Compatibility with earlier ChudBot version
+// Compatibility with earlier Smooth Criminals version
 export function reply(message, rng = Math.random) {
   const intent = classify(message);
   const responses =

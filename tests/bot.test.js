@@ -4,7 +4,7 @@ import fs from "node:fs";
 import os from "node:os";
 import path from "node:path";
 
-import { ChudBot, reply } from "../src/bot.js";
+import { Smooth Criminals, reply } from "../src/bot.js";
 import { classify } from "../src/core/classifier.js";
 import { Memory } from "../src/storage/memory.js";
 import { Logger } from "../src/core/logger.js";
@@ -34,7 +34,7 @@ test("selects deterministic responses", () => {
 
 test("persists conversation memory", () => {
   const dir = fs.mkdtempSync(
-    path.join(os.tmpdir(), "chudbot-test-")
+    path.join(os.tmpdir(), "smooth-criminals-test-")
   );
 
   try {
@@ -67,11 +67,11 @@ test("persists conversation memory", () => {
 
 test("engine responds and records memory", () => {
   const dir = fs.mkdtempSync(
-    path.join(os.tmpdir(), "chudbot-engine-")
+    path.join(os.tmpdir(), "smooth-criminals-engine-")
   );
 
   try {
-    const bot = new ChudBot({
+    const bot = new Smooth Criminals({
       memory: new Memory(
         path.join(dir, "memory.json")
       ),
